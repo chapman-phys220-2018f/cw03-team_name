@@ -31,7 +31,7 @@ Note : the homework this week will be to finish all of the classwork, and includ
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have. You can use the GitHub web interface to edit this file directly for now.
 
-**Learned how to work with python modules and use them in a bash script**
+**Learned how to work with python modules and use them in a bash script.**
 
 ## Honor Pledge
 
