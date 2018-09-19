@@ -5,7 +5,7 @@ import sequences as sq
 def main(argv):
     try:
         fib_seq = sq.fibonacci(int(sys.argv[1]))
-        print(fib_seq[-])
+        print(fib_seq[-1])
     except Exception as e:
         print (e)
     
