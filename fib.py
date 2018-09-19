@@ -3,12 +3,7 @@
 import sequences as sq
 
 def main(argv):
-    try:
-        fib_seq = sq.fibonacci(int(sys.argv[1]))
-        print(fib_seq[-1])
-    except Exception as e:
-        print (e)
-    
+    print (sq.fibonacci(int(argv[1]))[int(int(argv[1])-1)])
 if __name__ == "__main__":
     import sys
     main(sys.argv)
