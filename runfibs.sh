@@ -12,7 +12,7 @@ then
     fi
 fi
      
-for i in $(seq 10); do
+for i in $(seq 10000); do
     ./fib.py ${i} >> fibs.csv
 done
 sed -i ':a;N;$!ba;s/\n/, /g' fibs.csv
